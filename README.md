@@ -54,20 +54,6 @@ Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, atuando no d
 
 ---
 
-## 📈 Estatísticas GitHub
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=MatheusCertacon&show_icons=true&theme=github_dark&count_private=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusCertacon&layout=compact&theme=github_dark"/>
-</p>
-
----
-
-## 🔥 Sequência de Contribuições
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MatheusCertacon&theme=github-dark-blue"/>
-</p>
 
 ---
 
