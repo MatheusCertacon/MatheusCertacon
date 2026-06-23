@@ -69,7 +69,6 @@ Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, atuando no d
 - Desenvolver aplicações escaláveis e de alta performance
 - Aprimorar conhecimentos em arquitetura de software
 - Expandir experiência com DevOps e Cloud Computing
-- Contribuir para projetos open source
 
 ---
 
