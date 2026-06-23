@@ -5,27 +5,28 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Generate Snake dark theme
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: MatheusCertacon
-          outputs: |
-            dist/github-snake-dark.svg?palette=github-dark
-      - name: Generate Snake light theme
+      - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: MatheusCertacon
           outputs: |
             dist/github-snake.svg
-      - name: Commit & push snake files
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push Snake Animation
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
