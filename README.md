@@ -20,6 +20,13 @@ Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, atuando no d
 
 ## 🛠️ Stack Tecnológica
 
+### Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+</p>
+
 ### Backend
 
 <p>
